@@ -1,0 +1,46 @@
+.aw-carousel {
+    height: 50vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.aw-header {
+    font-weight: 600;
+}
+
+.aw-main-section {
+    padding-bottom: 6em;
+}
+
+.aw-searching-bar {
+    padding: 3em 3.3em 0em 3.3em;
+}
+
+.aw-social-media-icon {
+    width: 17px;
+    height: 17px;
+}
+
+.aw-social-media-title {
+    margin-top: 1em;
+    letter-spacing: 1.5px;
+    font-size: 1em;
+}
+
+.item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
+}
+
+
+footer {
+    background: rgba(192, 192, 192, 0.3);
+    padding-bottom: 2em;
+}
+
+.flex-container > div {
+    margin: 10px;
+    padding: 0px 30px 0 30px;
+}
