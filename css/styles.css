@@ -1,3 +1,12 @@
+.aw-card{
+    margin-top: 3em;
+}
+
+.aw-card-image{
+    background-size: cover;
+    background-position: center;
+}
+
 .aw-carousel {
     height: 50vh;
     overflow-y: hidden;
@@ -8,12 +17,23 @@
     font-weight: 600;
 }
 
+.aw-subheader {
+    font-weight: 600;
+}
+
+.aw-hr-short {
+    border: 3px solid red;
+    width: 23rem;
+    padding: 0px;
+    margin: 0px;
+}
+
 .aw-main-section {
     padding-bottom: 6em;
 }
 
 .aw-searching-bar {
-    padding: 3em 3.3em 0em 3.3em;
+    padding: 2em 3.3em 0em 3.3em;
 }
 
 .aw-social-media-icon {
@@ -43,4 +63,76 @@ footer {
 .flex-container > div {
     margin: 10px;
     padding: 0px 30px 0 30px;
+}
+
+@media (min-width: 360px) {
+    .aw-card {
+        margin: 1em;
+    }
+
+    .aw-header {
+        font-size: 11px;
+    }
+
+    .aw-subheader {
+        font-size: 10.5px;
+    }
+
+    .aw-hr-short {
+        border: 2px solid red;
+        width: 10rem;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .aw-navigation-link {
+        margin: 1em;
+        font-size: small;
+    }
+
+    .aw-social-media-icon {
+        width: 15px;
+        height: 15px;
+    }
+
+    .aw-social-media-title {
+        font-size: small;
+    }
+
+    #main-content {
+        margin-top: 1em;
+    }
+}
+
+@media (min-width: 760px) {
+    .aw-header {
+        font-size: 25px;
+    }
+
+    .aw-subheader {
+        font-size: 21px;
+    }
+
+    .aw-hr-short {
+        border: 2px solid red;
+        width: 10rem;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .aw-navigation-link {
+        margin: 1em;
+        font-size: small;
+    }
+
+    .aw-social-media-icon {
+        width: 15px;
+        height: 15px;
+    }
+
+    .aw-social-media-title {
+        font-size: small;
+    }
+
+    
 }
