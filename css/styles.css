@@ -1,3 +1,8 @@
+.aw-about-image {
+    max-width: 100%;
+    height: auto;
+}
+
 .aw-card{
     margin-top: 3em;
 }
@@ -7,10 +12,34 @@
     background-position: center;
 }
 
+.aw-careers-option {
+    letter-spacing: -1px;
+    font-weight: 600;
+    margin-top: 1em;
+}
+
+.aw-careers-title {
+    letter-spacing: -1px;
+}
+
 .aw-carousel {
     height: 50vh;
     overflow-y: hidden;
     overflow-x: hidden;
+}
+
+.aw-contactus-section {
+    background:rgb(38, 37, 37);
+    color: white;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 3em;
+}
+
+.aw-contactus-title {
+    letter-spacing: -0.5px;
+    font-weight: 800;
+    font-size: 3em;
 }
 
 .aw-header {
@@ -21,6 +50,12 @@
     font-weight: 600;
 }
 
+.aw-hr-medium {
+    margin: 2rem 0;
+    height: 0.18rem;
+    background-color: #dc3545;
+}
+
 .aw-hr-short {
     border: 3px solid red;
     width: 23rem;
@@ -28,8 +63,27 @@
     margin: 0px;
 }
 
+.aw-location-square {
+    padding: 1em;
+    border: 1px solid white;
+}
+
+.aw-location-square-info {
+    margin-bottom: 1em;
+}
+
+.aw-location-square-info > p {
+    margin-bottom: 0px;
+}
+
 .aw-main-section {
     padding-bottom: 6em;
+}
+
+.aw-navigation-link {
+    margin: 5px;
+    font-size: 10px;
+    font-weight: 300 !important;
 }
 
 .aw-searching-bar {
@@ -43,8 +97,8 @@
 
 .aw-social-media-title {
     margin-top: 1em;
-    letter-spacing: 1.5px;
     font-size: 1em;
+    font-weight: 800;
 }
 
 .item img {
@@ -54,9 +108,7 @@
     min-height: 300px;
 }
 
-
 footer {
-    background: rgba(192, 192, 192, 0.3);
     padding-bottom: 2em;
 }
 
@@ -86,17 +138,14 @@ footer {
     }
 
     .aw-navigation-link {
-        margin: 1em;
-        font-size: small;
+        margin: 5px;
+        font-size: 10px;
+        font-weight: 300 !important;
     }
 
     .aw-social-media-icon {
         width: 15px;
         height: 15px;
-    }
-
-    .aw-social-media-title {
-        font-size: small;
     }
 
     #main-content {
@@ -121,18 +170,13 @@ footer {
     }
 
     .aw-navigation-link {
-        margin: 1em;
-        font-size: small;
+        margin: 2em;
+        font-size: medium;
+        font-weight: 600;
     }
 
     .aw-social-media-icon {
         width: 15px;
         height: 15px;
     }
-
-    .aw-social-media-title {
-        font-size: small;
-    }
-
-    
 }
