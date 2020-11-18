@@ -180,3 +180,9 @@ footer {
         height: 15px;
     }
 }
+
+@media (min-width: 1200px) {
+    .aw-location-main-content {
+        font-size: 70%;
+    }
+}
