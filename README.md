@@ -1,7 +1,8 @@
-# themeet
+# The Meet
 Front end practice: website using html5, css, bootstrap4 and js.
-To fully complete this practice 6 pages were made, and each page was prooved in 4 different devices with different sizes to practice responsiveness.
-The design of the web pages was taken from the third practice of the course "Build beautiful websites easier and faster using bootstrap 4".
+
+To fully complete this practice 6 pages were made, and each page was prooved in 4 different devices with different sizes to practice responsiveness. The design of the web pages was taken from the third practice of the course *"Build beautiful websites easier and faster using bootstrap 4"*.
+
 Feel free to download this repo if you want to check the responsiveness of the pages. 
 
 1. **index.html**
