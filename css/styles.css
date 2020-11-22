@@ -1,188 +1,73 @@
 .aw-about-image {
-    max-width: 100%;
-    height: auto;
-}
+  max-width: 100%;
+  height: auto; }
 
-.aw-card{
-    margin-top: 3em;
-}
+.aw-content, .aw-main-about {
+  color: #e9ecef;
+  font-size: 100%; }
 
-.aw-card-image{
-    background-size: cover;
-    background-position: center;
-}
+.aw-footer {
+  background-color: #e9ecef;
+  padding-bottom: 2em;
+  margin-left: 1em;
+  margin-right: 1em; }
 
-.aw-careers-option {
-    letter-spacing: -1px;
-    font-weight: 600;
-    margin-top: 1em;
-}
-
-.aw-careers-title {
-    letter-spacing: -1px;
-}
-
-.aw-carousel {
-    height: 50vh;
-    overflow-y: hidden;
-    overflow-x: hidden;
-}
-
-.aw-contactus-section {
-    background:rgb(38, 37, 37);
-    color: white;
-    text-align: center;
-    padding-top: 1em;
-    padding-bottom: 3em;
-}
-
-.aw-contactus-title {
-    letter-spacing: -0.5px;
-    font-weight: 800;
-    font-size: 3em;
-}
-
-.aw-header {
-    font-weight: 600;
-}
-
-.aw-subheader {
-    font-weight: 600;
-}
-
-.aw-hr-medium {
-    margin: 2rem 0;
-    height: 0.18rem;
-    background-color: #dc3545;
-}
+.aw-footer-link {
+  margin: 0 1em 0 1em; }
 
 .aw-hr-short {
-    border: 3px solid red;
-    width: 23rem;
-    padding: 0px;
-    margin: 0px;
-}
+  border: 2px solid #dc3545;
+  margin: 0; }
+
+.aw-main-career {
+  padding-top: 1em;
+  background-color: #262525;
+  color: #e9ecef;
+  padding-left: 2em;
+  padding-right: 2em;
+  margin-left: 1em;
+  margin-right: 1em; }
+
+.aw-main-contact {
+  background-color: #262525;
+  color: #e9ecef; }
+
+.aw-main-index {
+  padding-right: 2em;
+  padding-left: 2em; }
+
+.aw-main-investment {
+  background-color: #262525;
+  color: #e9ecef; }
+
+.aw-main-location {
+  color: white;
+  text-align: center;
+  margin-bottom: 3em; }
+
+.aw-main-rewards {
+  background-color: #262525;
+  color: #e9ecef; }
+
+.aw-main-about {
+  color: #262525;
+  padding-bottom: 2em; }
 
 .aw-location-square {
-    padding: 1em;
-    border: 1px solid white;
-}
+  border: 1px solid white;
+  padding: 10px; }
 
-.aw-location-square-info {
-    margin-bottom: 1em;
-}
+.aw-socialmedia-icon {
+  color: #dc3545;
+  margin: 0 1em 0 1em; }
 
-.aw-location-square-info > p {
-    margin-bottom: 0px;
-}
+.aw-socialmedia-title {
+  color: #262525;
+  letter-spacing: 0.7px;
+  margin-top: 2em; }
 
-.aw-main-section {
-    padding-bottom: 6em;
-}
+.aw-title {
+  margin-bottom: 1em; }
 
-.aw-navigation-link {
-    margin: 5px;
-    font-size: 10px;
-    font-weight: 300 !important;
-}
-
-.aw-searching-bar {
-    padding: 2em 3.3em 0em 3.3em;
-}
-
-.aw-social-media-icon {
-    width: 17px;
-    height: 17px;
-}
-
-.aw-social-media-title {
-    margin-top: 1em;
-    font-size: 1em;
-    font-weight: 800;
-}
-
-.item img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    min-height: 300px;
-}
-
-footer {
-    padding-bottom: 2em;
-}
-
-.flex-container > div {
-    margin: 10px;
-    padding: 0px 30px 0 30px;
-}
-
-@media (min-width: 360px) {
-    .aw-card {
-        margin: 1em;
-    }
-
-    .aw-header {
-        font-size: 11px;
-    }
-
-    .aw-subheader {
-        font-size: 10.5px;
-    }
-
-    .aw-hr-short {
-        border: 2px solid red;
-        width: 10rem;
-        padding: 0px;
-        margin: 0px;
-    }
-
-    .aw-navigation-link {
-        margin: 5px;
-        font-size: 10px;
-        font-weight: 300 !important;
-    }
-
-    .aw-social-media-icon {
-        width: 15px;
-        height: 15px;
-    }
-
-    #main-content {
-        margin-top: 1em;
-    }
-}
-
-@media (min-width: 760px) {
-    .aw-header {
-        font-size: 25px;
-    }
-
-    .aw-subheader {
-        font-size: 21px;
-    }
-
-    .aw-hr-short {
-        border: 2px solid red;
-        width: 10rem;
-        padding: 0px;
-        margin: 0px;
-    }
-
-    .aw-navigation-link {
-        margin: 2em;
-        font-size: medium;
-        font-weight: 600;
-    }
-
-    .aw-social-media-icon {
-        width: 15px;
-        height: 15px;
-    }
-}
-
-@media (min-width: 1200px) {
-    .aw-location-main-content {
-        font-size: 70%;
-    }
-}
+.navbar {
+  background-color: #e9ecef; }

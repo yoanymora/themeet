@@ -1,0 +1,103 @@
+$primary: #dc3545;
+$secondary: #e9ecef;
+$third: rgb(38, 37, 37);
+
+$title-size: 5em;
+$title-weight: 500;
+$title-spicing: -1px;
+
+$content-size: 100%;
+$content-spicing: 0.7px;
+
+.aw-about-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.aw-content {
+    color: $secondary;
+    font-size: $content-size;
+}
+
+.aw-footer {
+    background-color: $secondary;
+    padding-bottom: 2em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.aw-footer-link {
+    margin: 0 1em 0 1em;
+}
+
+.aw-hr-short {
+    border: 2px solid $primary;
+    margin: 0;
+}
+
+
+.aw-main-career {
+    padding-top: 1em;
+    background-color: $third;
+    color: $secondary;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.aw-main-contact {
+    background-color: $third;
+    color: $secondary;
+}
+
+.aw-main-index {
+    padding-right: 2em;
+    padding-left: 2em;
+}
+
+.aw-main-investment {
+    background-color: $third;
+    color: $secondary;
+}
+
+.aw-main-location {
+    color: white;
+    text-align: center;
+    margin-bottom: 3em;
+}
+
+.aw-main-rewards {
+    background-color: $third;
+    color: $secondary
+}
+
+.aw-main-about {
+    @extend .aw-content;
+    color: $third;
+    padding-bottom: 2em;
+}
+
+.aw-location-square {
+    border: 1px solid white;
+    padding: 10px;
+}
+
+.aw-socialmedia-icon {
+    color: $primary;
+    margin: 0 1em 0 1em;
+}
+
+.aw-socialmedia-title {
+    color: $third;
+    letter-spacing: $content-spicing;
+    margin-top: 2em;
+}
+
+.aw-title {
+    margin-bottom: 1em;
+}
+
+.navbar {
+    background-color: $secondary;
+}
